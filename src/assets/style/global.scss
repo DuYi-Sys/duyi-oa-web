@@ -1,0 +1,111 @@
+$color-primary: #222;
+.container{
+    // background-color: #d3dce6;
+		font-family: "arial black",sans-serif;
+		font-size: 1rem;
+		min-height: 39rem;
+		display: flex;
+		align-items:center;
+		padding:0;
+		margin:0;
+    overflow: hidden;
+
+}
+.navsider{
+//  width: 15rem;
+    width: 12.5rem;
+    height: 39rem;
+		transition:all 0.35s;
+    margin:0;
+//  overflow-y:auto;
+//  overflow-x:hidden;
+	}
+.navsiderCollapse{
+    width: 4rem;
+    height: 39rem;
+    transition:all 0.35s;
+    padding-top:0;
+	}
+	.content{
+    width:100%;
+		background-color:white;
+    height: 39rem;
+		text-decoration: none;
+    padding: 0.0rem;
+    overflow-x:hidden;
+    .child{
+      margin: 0.5rem;
+    }
+}
+
+
+.header{
+    background-color: $color-primary;
+    font-family: "arial black",sans-serif;
+    font-size: 1rem;
+    min-height: 3.75rem;
+    display: flex;
+    align-items:center;
+    padding:0 1rem;
+    margin:0;
+}
+// .LogoItem-min
+.LogoItem{
+    color: #fff;
+    margin-right: 2rem;
+    text-decoration: none;
+    font-size:2rem;
+    width:9rem;
+    transition:all 0.35s;
+//  background-image: url(logo.png);
+}
+//.LogoItemcollapse:before{
+//  content: '渡一';
+//
+//}
+//.LogoItem:before{
+//  content: '渡一';
+//  display:block;
+//
+//}
+.LogoItemcollapse{
+    color: #fff;
+    margin-right: 0px;
+    width:3rem;
+    text-decoration: none;
+    font-size: 1rem;
+    transition:all 0.35s;
+}
+.ListItem,
+.ListItem{
+    color: #ebebed;
+    text-decoration: none;
+}
+.ListItem{
+    margin-right: 1rem;
+}
+.LastItem{
+    color: #fff;
+    margin-left: auto;
+    text-decoration: none;
+}
+
+.tools {
+        margin-right: 0.5rem;
+        color: #ebebed;
+        padding: 0rem 1rem;
+        width: 1rem;
+        cursor: pointer;
+}
+.el-menu-vertical:not(.el-menu--collapse) {
+    width: 12.5rem;
+    // width:100%;
+    min-height:37.5rem;
+    // transition:width 0.01s;
+}
+.el-menu--collapse {
+    // width: 12.5%;
+   
+    min-height:37.5rem;
+    // transition:all 0.3s;
+}
